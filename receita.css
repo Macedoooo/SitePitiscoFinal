@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    display: flex;
+    background-image: url(imagens/image\ 44.png);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .image-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .content-section {
+    flex: 1;
+    padding: 250px;
+    background-image: url(imagens/receita.png);
+    background-size: 1500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 130px;
+  }
+  
+.box {
+    background-color: rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(0.4rem);
+    border: 2px solid #e91e63;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #e91e63;
+    margin-bottom: 10px;
+  }
+  
+  ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.menu-esquerda, .menu-direita {
+    display: flex;
+    gap: 15px; 
+    font-family: 'Teste', Times, sans-serif;
+}
+
+.menu-esquerda {
+    margin-right: 30px; 
+}
+
+.menu-direita {
+    margin-left: 30px; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.logo img {
+    width: 100px; 
+    height: 50px;  
+}
+
+.menu a:hover {
+    color: #ffffff; 
+}
+
+header {
+    background-color: #FFD700;
+}
+
+.conteudo2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.coluna {
+    width: 33%;
+}
+
+.coluna h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Teste2', Times, sans-serif;
+}
+
+.coluna ul {
+    list-style: none;
+    padding: 0;
+}
+
+.coluna ul li {
+    margin-bottom: 5px;
+}
+
+.coluna ul li a {
+    color: #aaa;
+    text-decoration: none;
+    font-family: 'Teste2', Times, sans-serif;
+}
+
+.coluna ul li a:hover {
+    color: #fff;
+}
+
+.coluna ul li a i {
+    margin-right: 5px;
+}
+
+.coluna p {
+    font-size: 18px;
+    font-family: 'Teste2', Times, sans-serif;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
